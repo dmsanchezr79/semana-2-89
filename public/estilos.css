@@ -1,0 +1,195 @@
+body {
+    width: 1200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer{
+    /* position: fixed; */
+    padding: 20px ;
+    color: white;
+    /* width    : 100% ; */
+    background-image: url(https://www.avanzaentucarrera.com/orientacion/comp/uploads/2017/10/Desarrollador-web-la-especialidad-m%C3%A1s-demandada-2.jpg);
+    background-size: 100%;
+}
+
+
+
+.main-content{
+    display: flex;
+    text-align: justify;
+    
+}
+
+.main-content .box{
+    flex-basis: 50%;
+   
+    
+}
+.box h2{
+    font-weight: 600;
+}
+
+.seccion-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-3__miembro {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 5px;
+    /* padding: 5px; */
+}
+
+.seccion-3__titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-3__contenido
+{
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-3__imagen
+{
+    width: 230px;
+    height: 230px;
+}
+
+.seccion-3__descripcion 
+{
+    text-align: justify;
+} 
+
+.seccion-1{
+    background-color: rgb(58, 231, 110);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: Georgia;
+    margin-bottom: 20px;
+   
+}
+
+.header{
+    background-color: darkgray;
+    
+}
+.seccion-2{
+
+    display: flex  ;
+    justify-content: space-evenly;
+    text-align: center;
+
+}    
+
+.noticia{
+        text-align: justify;
+        margin: 5px;
+}
+
+.noticia1{
+        background-color: #EAE151;
+        display: flex;
+        text-align: justify;
+}
+.noticia2{
+        background-color: #EEEFA8;
+        display: flex  ;
+        text-align: justify;
+}
+.noticia3{
+        background-color: #EEEFA8;
+        display: flex  ;
+        text-align: justify;
+}
+.noticia4{
+        background-color: #EAE151;
+        display: flex  ;
+        text-align: justify;
+        text-align: justify;
+}
+
+.barra-superior{
+display: flex;
+justify-content: center;
+align-items: center;
+border: navy 3px solid;
+}
+
+.titulo-panel{
+    background-color: lightskyblue;
+    width: 50%;
+    text-align: center;
+    color: black;
+}
+
+.contenedor-menu{
+    /* background-color: lightblue; */    
+    width: 50%;
+}
+
+.menu-principal{
+display: flex;
+list-style: none;
+justify-content: space-evenly;
+}
+
+.menu-principal__item > a:hover{
+ font-size: 20px;
+ text-decoration: underline;
+}
+
+.menu-principal__item > a{
+    text-decoration: none; 
+    color: black;
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+}
+.baner-imagen{
+    border: navy 3px solid;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.news-detail {
+    display: flex;
+    width: 550px;
+}
+
+.news-img-container {
+    margin: 5px;
+}
+
+.news-text-detail {
+    margin: 5px;   
+}
+
+.news-img {
+    width: 150px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.news-title {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.news-reload {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
