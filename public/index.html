@@ -2,16 +2,159 @@
 <html>
 
 <head>
-    <title>PROYECTO SPRINT 2</title>
+    <title>Proyecto Semana 2 - Grupo 89</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 
 <body>
+    <div class="container" id="container">
+        <!-- seccion superio -->
+        <header class="header">
+            <!-- seccion titulo y menu  -->
+            <section class="barra-superior">
+                <div class="titulo-panel">
+                    <h1>Workshop 1</h1>                    
+                </div>
+                <nav class="contenedor-menu">
+                    <ul class="menu-principal">
+                        <li class="menu-principal__item"><a href="#">Inicio</a></li>
+                        <li class="menu-principal__item"><a href="#services">Servicios</a></li>
+                        <li class="menu-principal__item"><a href="#news">Noticias</a></li>
+                        <li class="menu-principal__item"><a href="#team">Equipo</a></li>
+                    </ul>
+                 </nav>
+             </section>
+            <!-- termina seccion titulo y menu  -->
+            <!-- seccion imagen -->
+            <section class="imagen">
+                <img src="imagen.jpg" alt="imagen seccion1">
+            </section>
+            <!-- termina seccion imagen  -->
+        </header>
+        <div id="services" class="seccion-1">
+            <div >
+                <img src="10.jpg" alt="Lavada de vheiculos">
+                <h3 >Lavada</h3>
+                <p>Lavada de vehiculos con productos importados <br>Lavado interior, exterior y de motor </p>
+                <a href="#">Mayor informacion</a>
+            </div>
+            <div >
+                <img src="11.jpg" alt="pintura de vehiculos">
+                <h3>Pintura</h3>
+                <p>Cabina de pintura con normas internacionales <br>rayones, sumidos y abolladuras</p>
+                <a href="#">Mayor informacion</a>
+            </div>
+            <div >
+                <img src="12.jpg" alt="Iluminacion de vehiculos">
+                <h3>Iluminacion</h3>
+                <p>Iluminacion con las mejores marcas del mercado <br>luces HD, Led y Bixenon </p>
+                <a href="#">Mayor informacion</a>
+            </div>
+        </div>
+        <!-- noticias -->
+        <div id="news">
+            <div class="news-title">
+                <h3>Noticias</h3>
+            </div>
+            <div id="news-content" class="news-container">
+                
+            </div>
+            <div class="news-reload">
+                <button class="btn btn-info" id="news-reload">
+                    Recargar noticias
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-counterclockwise" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z"/>
+                        <path d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z"/>
+                      </svg>
+                </button>
+            </div>
+        
+        </div>
+
+        <div class="seccion-3" id="team">
+            <div class="seccion-3__titulo">
+                <h3>Nuestro equipo de trabajo</h3>
+            </div>
+            <div class="seccion-3__contenido">
+        
+                <div class="seccion-3__miembro">
+                    <img src="./foto_1.jpg" class="seccion-3__imagen" alt="Foto de Juan David Avalos">
+                    <h4>Juan David Avalos</h4>
+                    <div class="seccion-3__descripcion">Ingeniero de Petróleos de 29 años de edad. Reparte su afición entre el fútbol y los videojuegos. Felizmente casado.</div>
+                </div>
+                <div class="seccion-3__miembro">
+                    <img src="./foto_2.jpg" class="seccion-3__imagen" alt="Foto de José Bernardo Pérez">
+                    <h4>José Bernardo Pérez</h4>
+                    <div class="seccion-3__descripcion">Administrador de un taller de taxímetros, con 45 años de edad, su mayor afición es saber cómo funcionan las cosas, tiene una hija una gata y muchos peces.</div>
+                </div>
+                <div class="seccion-3__miembro">
+                    <img src="./foto_3.jpg" class="seccion-3__imagen" alt="Foto de Juan Pablo Bermúdez">
+                    <h4>Juan Pablo Bermúdez</h4>
+                    <div class="seccion-3__descripcion">Economista de la Universidad Nacional. Me gusta  Radiohead, Steven Wilson y  el Techno. Suelo hacer ejercicio o trotar cuando el clima es favorable y a veces juego lol. Tengo dos gatos.</div>
+                </div>
+                <div class="seccion-3__miembro">
+                    <img src="./foto_4.jpg" class="seccion-3__imagen" alt="Foto de Diego Mauricio Sánchez">
+                    <h4>Diego Mauricio Sánchez</h4>
+                    <div class="seccion-3__descripcion">Ingeniero de sistemas de la Universidad Distrital, de 41 años de edad. Aficionado al ajedrez y a los RPG. Papá de Juandi y de dos gatos.</div>
+                </div>
+                <div class="seccion-3__miembro">
+                    <img src="./foto_5.jpg" class="seccion-3__imagen" alt="Foto de Joan Esneider Duque">
+                    <h4>Joan Esneider Duque</h4>
+                    <div class="seccion-3__descripcion">Estudiante de Ingeniería Mecánica de la Universidad de Antioquia actualmente en noveno semestre, el poco tiempo libre que me queda lo comparto con mi hija.</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+        
+        <div class="main-content">
+        <div class="left box">
+            <h2> About us:</h2>
+            <img src="logo.png" alt="">
+            <div class="content">
+                <h3><p> Este sitio web fue desarrollado con el fin de sustentar lo aprendido en el sprint 1 del ciclo 3.  
+                </p>
+                </h3>
+                <span class="fab fa-github fa-spin fa-2x"></span> 
+                <span class="text">https://github.com/dmsanchezr79/semana-1-89</span>
+            </div>
+        </div>
+<div class="center box">
+
+</div>
+       <div class="right box">
+           <h2>Contactos:</h2>
+           <div class="content">
+              <div class="email">
+                  
+                  <h4>	&#9787; Diego Mauricio Sanchez (Scrum Master)</h4>
+                  <span class="fas fa-envelope fa-spin fa-2x"></span>
+                  <span class="text">dmsanchezr@gmail.com</span>
+                  <h4> &#9787; Juan David Avalos (Development Team) </h4>
+                  <span class="fas fa-envelope fa-spin fa-2x"></span> 
+                  <span class="text">jdavalosh@unal.edu.co</span>
+                  <h4> 	&#9787; José Bernardo Pérez (Development Team)</h4>
+                  <span class="fas fa-envelope fa-spin fa-2x"></span>
+                  <span class="text">berperez2003@yahoo.com.ar</span>
+                  <h4>	&#9787; Juan Pablo Bermúdez (Development Team)</h4>
+                  <span class="fas fa-envelope fa-spin fa-2x"></span>
+                  <span class="text">jpbermudezv@unal.edu.co</span>
+                  <h4>	&#9787; Joan Esneider Duque Jaramillo (Development Team)</h4>
+                  <span class="fas fa-envelope fa-spin fa-2x"></span> 
+                  <span class="text">joan.duque@udea.edu.co</span>
+              </div>
+               </div>
+           </div>
+       </div>
+       </footer>
+    </div>
     <div id="app">
     </div>
+    <script src="./app.js"></script>
 </body>
 
 </html>
