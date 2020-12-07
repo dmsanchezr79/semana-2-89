@@ -23,4 +23,9 @@
 
 <style scoped>
 
+    div {
+
+    background-color: #078bf0; 
+    }
+
 </style>

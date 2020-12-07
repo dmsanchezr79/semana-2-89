@@ -1,21 +1,30 @@
 <template>
   <div id="app">
-    <div class="container-fluid ">
+    <div id="news" class="container-fluid">
+      <section-api> </section-api>
+    </div>
+    <div id="team" class="container-fluid ">
     <div class="row justify-content-center mb-5 " >
       <div class="col mt-5" v-for="(item,index) of team" :key="index" >
         <team-card :member="item"></team-card>
       </div>
     </div>
     </div>
+    <h4>{{title}}</h4>
+    <page-footer> </page-footer>
   </div>
 </template>
 
 <script>
+import PageFooter from "./components/PageFooter.vue";
+import SectionApi from "./components/SectionApi.vue";
 import TeamCard from './components/TeamCard.vue'
 export default {
   name: 'App',
     components:{
       TeamCard,
+    PageFooter,
+    SectionApi,
   } ,
   data(){
     return{
@@ -50,7 +59,8 @@ export default {
                 rol:'Development Team',
                 image: require('@/assets/foto_5.jpg') 
             },
-        ]
+        ],
+        title: "¿Tiene alguna duda o sugerencia?",
     }    
   }
 
